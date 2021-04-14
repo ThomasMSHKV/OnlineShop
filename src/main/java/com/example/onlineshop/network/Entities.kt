@@ -18,3 +18,9 @@ data class Product(
     @SerializedName("categories") val categories: String
 
 )
+
+data class Category(
+    @SerializedName("id") val id: Int,
+    @SerializedName("title") val title: String,
+    @SerializedName("parent_id") val parent_id: Int
+)
