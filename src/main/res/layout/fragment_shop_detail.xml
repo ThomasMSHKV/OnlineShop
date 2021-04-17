@@ -48,7 +48,7 @@
             android:id="@+id/order_detail_product"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Продукт"
+            android:text="@string/product"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                     android:layout_margin="16dp"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="3000.Р"
+                    android:text="@string/_3000"
                     android:textColor="@color/green" />
             </LinearLayout>
             <LinearLayout
