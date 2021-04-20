@@ -73,7 +73,7 @@ class OrderDetailFragments : Fragment(R.layout.fragment_shop_detail), OrderDetai
         binding.orderDetailProduct.text = product.title
         binding.numberDetail.text = count.toString()
 
-        Glide.with(requireContext()).load(product.image_url).centerCrop().into(order_detail_iv)
+        Glide.with(requireContext()).load(product.image_url).centerCrop().into(binding.orderDetailIv)
 
     }
 }

@@ -58,7 +58,7 @@ class OrderListAdapter(private val callback: OrdersCallback) :
         orders[position].categories.forEach {
             categoriesList.add(it.title)
         }
-        if (categoriesList.isNullOrEmpty().not()) {
+        if (categoriesList.isNullOrEmpty().not()){
             holder.category.text = categoriesList[0]
         }
         holder.product.text = orders[position].title

@@ -15,7 +15,7 @@ data class Product(
     @SerializedName("amount") val amount: Int,
     @SerializedName("price") val price: Double,
     @SerializedName("producer") val producer: String,
-    @SerializedName("categories") val categories: String
+    @SerializedName("categories") val categories: List<Category>
 
 )
 

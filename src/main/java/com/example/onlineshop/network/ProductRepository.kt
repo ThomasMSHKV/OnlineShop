@@ -16,7 +16,7 @@ class ProductRepository: CoroutineScope {
         .build()
         .create(ProductApi::class.java)
 
-    fun getOder() = async {
+    fun getOrder() = async {
         productApi.getProduct()
             .execute()
             .body()
